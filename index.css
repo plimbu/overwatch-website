@@ -9,6 +9,13 @@ padding:0;
 
 }
 
+/* font size for banner */
+.fontSize{
+font-size: 30px;
+text-align: center;
+
+}
+
 
 /* for positioning first intro */
 .posIntro{
