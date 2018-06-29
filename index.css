@@ -23,7 +23,7 @@ size:100%;
 .borderPicture
 {
   height: 600px;
-background:url("image/overwatchBorderOne.png") no-repeat center center;
+background:url("image/tracer.png") no-repeat center center;
 background-size: cover;
 
 }
@@ -35,19 +35,32 @@ background-size: cover;
 /* so we give it a id */
 #lk
 {
-  height: 300px;
-  width: 300px;
+  height: 100px;
+  width: 100px;
 position: relative;
 border-radius:60%;
-
-
 
 }
 
 
 
+/* border columns to see how the cell size is */
+.border {
+    margin-top:10px;
+    border: #cdcdcd medium solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
 
+.owLogo{
+  height: 20px;
+  width: auto;
 
+}
 
-
-/* slideshow classes below */
+/* tracer size */
+.tracerSize{
+height: 100%;
+width: 100%;
+}
