@@ -4,9 +4,8 @@
 font-family: bahnschrift;
 padding:0;
   border:0;
-  font-size:150%;
-  position: relative;
-  top: 50px;
+  font-size:130%;
+
 
 }
 
@@ -14,8 +13,8 @@ padding:0;
 /* for positioning first intro */
 .posIntro{
 
-  top: 100px;
 
+top:50px;
 }
 
 /* fitparent is a class i made to make sure picture fits within parent borders */
@@ -79,8 +78,12 @@ background-size: cover;
 
 /* tracer size */
 .tracerSize{
-height: 100;
-width: 100%;
+width:150%;
+height: auto;
+position:relative;
+top:10px;
+
+
 }
 
 /* blocksize for tracer row */
