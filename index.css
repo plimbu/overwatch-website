@@ -1,3 +1,30 @@
+
+/* font for info on page etc. introduction */
+.font{
+font-family: bahnschrift;
+padding:0;
+  border:0;
+  font-size:150%;
+  position: relative;
+  top: 50px;
+
+}
+
+
+/* for positioning first intro */
+.posIntro{
+
+  top: 100px;
+
+}
+
+/* fitparent is a class i made to make sure picture fits within parent borders */
+.fitParent{
+  width: 100%;
+  height: 100%;
+}
+
+
 /* fill cell blue */
 .colorBlue
 {
@@ -10,7 +37,7 @@ size:100%;
 
 
 
-
+/* font */
 .topborderFont
 {
   font-family: "Edwardian Script ITC Regular";
@@ -31,16 +58,7 @@ background-size: cover;
 
 
 
-/* only picture with this specific sizw*/
-/* so we give it a id */
-#lk
-{
-  height: 100px;
-  width: 100px;
-position: relative;
-border-radius:60%;
 
-}
 
 
 
@@ -61,6 +79,11 @@ border-radius:60%;
 
 /* tracer size */
 .tracerSize{
-height: 100%;
+height: 100;
 width: 100%;
+}
+
+/* blocksize for tracer row */
+.blockSize{
+  height:100px;
 }
