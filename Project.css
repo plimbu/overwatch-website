@@ -68,10 +68,10 @@
 /* tracer size */
 
 .tracerSize {
-  width: 150%;
+  width: 200%;
   height: auto;
   position: relative;
-  top: 10px;
+  top: 100px;
 }
 
 /* blocksize for tracer row */
